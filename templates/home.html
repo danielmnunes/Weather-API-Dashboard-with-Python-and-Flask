@@ -1,0 +1,19 @@
+{% extends "bootstrap/base.html" %}
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    {% block content %}
+    <h2>Weather Dashboard in Flask </h2>
+    <form action="{{ url_for('render_results') }}", method="post">
+        Location Zip Code: <input type="text", name="zip_code"> <br>
+        <input type="submit" value="Submit">
+    </form>
+    {% endblock %}
+    
+</body>
+</html>

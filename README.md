@@ -1,0 +1,2 @@
+# Weather-API-Dashboard-with-Python-and-Flask
+This project is a beginner-friendly web application focused on building a Flask App that will take a Zip Code provided by the user and get the Weather of that location. We'll learn how to use the Requests module in Python, parse the JSON returned in the Weather API and render the dashboard and results in Flask. This project is particularly special to me because it's the first project I ever built when learning how to code. Let's dive right in!
